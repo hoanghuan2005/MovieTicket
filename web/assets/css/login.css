@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    width: 360px;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:first-of-type {
+    background-color: #3498db;
+    color: white;
+}
+
+input[type="submit"]:first-of-type:hover {
+    background-color: #2980b9;
+}
+
+.register-btn {
+    background-color: #2ecc71;
+    color: white;
+    margin-top: 10px;
+}
+
+.register-btn:hover {
+    background-color: #27ae60;
+}
+
+.error,
+.ok {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.error {
+    color: #e74c3c;
+}
+
+.ok {
+    color: #27ae60;
+}
