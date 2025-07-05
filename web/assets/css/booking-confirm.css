@@ -1,0 +1,10 @@
+body {
+    background-color: #fdfcf0;
+}
+h2 {
+    color: #e73535;
+}
+.btn-confirm {
+    background-color: #e73535;
+    color: white;
+}

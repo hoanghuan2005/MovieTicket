@@ -1,0 +1,14 @@
+body {
+    background-color: #fdfcf0;
+}
+.card-title {
+    color: #e73535;
+}
+.btn-outline-primary {
+    border-color: #e73535;
+    color: #e73535;
+}
+.btn-outline-primary:hover {
+    background-color: #e73535;
+    color: white;
+}

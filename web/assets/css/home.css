@@ -1,0 +1,12 @@
+body {
+    background-color: #fdfcf0;
+}
+.card-title {
+    color: #e73535;
+    font-weight: bold;
+}
+.card img {
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}

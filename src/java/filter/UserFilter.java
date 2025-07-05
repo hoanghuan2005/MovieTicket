@@ -16,7 +16,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
 import model.UserDTO;
-import utils.AuthUtils;
+//import utils.AuthUtils;
 
 @WebFilter(filterName = "NewFilter", urlPatterns = {"/main", "/welcome.jsp", "/createExam.jsp", "/createQuestion.jsp", "/takeExam.jsp", "/viewResult.jsp", "/detail.jsp"})
 public class UserFilter implements Filter {

@@ -1,0 +1,10 @@
+body {
+    background-color: #fdfcf0;
+}
+.table th {
+    background-color: #e73535;
+    color: white;
+}
+.table td {
+    vertical-align: middle;
+}
