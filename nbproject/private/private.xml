@@ -3,8 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/D:/Ky_4_SU25/PRJ301/MovieTicket/web/assets/css/header.css</file>
+            <file>file:/D:/Ky_4_SU25/PRJ301/MovieTicket/web/footer.jsp</file>
             <file>file:/D:/Ky_4_SU25/PRJ301/MovieTicket/src/java/controller/MainController.java</file>
+            <file>file:/D:/Ky_4_SU25/PRJ301/MovieTicket/web/assets/css/footer.css</file>
+            <file>file:/D:/Ky_4_SU25/PRJ301/MovieTicket/web/booking-history.jsp</file>
+            <file>file:/D:/Ky_4_SU25/PRJ301/MovieTicket/web/home.jsp</file>
+            <file>file:/D:/Ky_4_SU25/PRJ301/MovieTicket/web/payment.jsp</file>
+            <file>file:/D:/Ky_4_SU25/PRJ301/MovieTicket/src/java/utils/AuthUtils.java</file>
             <file>file:/D:/Ky_4_SU25/PRJ301/MovieTicket/src/java/controller/MovieController.java</file>
+            <file>file:/D:/Ky_4_SU25/PRJ301/MovieTicket/web/header.jsp</file>
+            <file>file:/D:/Ky_4_SU25/PRJ301/MovieTicket/web/welcome.jsp</file>
+            <file>file:/D:/Ky_4_SU25/PRJ301/MovieTicket/web/booking-confirm.jsp</file>
         </group>
     </open-files>
 </project-private>
