@@ -1,0 +1,21 @@
+body {
+    background-color: #fdfcf0;
+}
+.seat {
+    width: 35px;
+    height: 35px;
+    margin: 6px;
+    border-radius: 6px;
+    border: none;
+}
+.seat.available {
+    background-color: #ccc;
+}
+.seat.selected {
+    background-color: #e73535;
+    color: white;
+}
+.seat.sold {
+    background-color: #444;
+    cursor: not-allowed;
+}

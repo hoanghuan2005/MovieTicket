@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #e73535 !important;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar .navbar-brand:hover {
+    color: #fdfcf0;
+}
+
+.navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.navbar .nav-link:hover {
+    color: #fdfcf0 !important;
+    text-decoration: underline;
+}
