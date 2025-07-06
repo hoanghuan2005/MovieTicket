@@ -9,7 +9,7 @@
         <title>Movie Booking - Home</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-                <link rel="stylesheet" href="assets/css/home.css"/>
+        <link rel="stylesheet" href="assets/css/home.css"/>
 
     </head>
     <body>
@@ -44,7 +44,16 @@
                 </c:forEach>
             </div>
         </div>
+        <div id="chat-widget">
+            <div id="chat-header">Tư vấn phim</div>
+            <div id="chat-body">
+                <div id="chat-messages"></div>
+                <input type="text" id="chat-input" placeholder="Bạn cần tư vấn gì?" />
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
         <%@ include file="footer.jsp" %>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
+    <script src="assets/js/bot.js" defer></script>
 </html>

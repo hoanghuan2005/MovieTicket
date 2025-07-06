@@ -10,3 +10,51 @@ body {
     object-fit: cover;
     border-radius: 12px 12px 0 0;
 }
+
+#chat-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 280px;
+  font-family: Arial;
+  z-index: 999;
+}
+
+#chat-header {
+  background-color: #e73535;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#chat-body {
+  background-color: #fdfcf0;
+  border: 1px solid #ccc;
+  max-height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+#chat-messages {
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+#chat-input {
+  padding: 6px;
+  border: none;
+  border-top: 1px solid #ccc;
+  outline: none;
+  width: 100%;
+}
+
+#chat-body button {
+  background-color: #e73535;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}

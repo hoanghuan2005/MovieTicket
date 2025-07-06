@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 public class DbUtils {
 //    Do not change this code
-    private static final String DB_NAME = "Workshop2";
+    private static final String DB_NAME = "MovieTicketDB";
     private static final String DB_USER_NAME = "sa";
     private static final String DB_PASSWORD = "12345";
 
